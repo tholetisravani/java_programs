@@ -1,0 +1,11 @@
+public class Main7 {
+    public static void main(String[] args) {
+        Book b1 = new Book ();
+        Book b2 = new Book("Java", 349.0);
+    }
+}
+class Book {
+    String title; double price;
+    Book() {this("Untitled", 0.0)}
+    Book(String t, double p) {title=t;price=p;}
+}
